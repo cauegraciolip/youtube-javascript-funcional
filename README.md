@@ -17,8 +17,8 @@ Então os próximos seguem a lógica inversa quando se tem 2 ou 3 parâmetros. P
 
 Os resultado devem ser os seguintes:
 
-// range(5) -> [1, 2, 3, 4, 5]
-// range(6, 11) -> [6, 7, 8, 9, 10, 11]
+// range(5) -> [1, 2, 3, 4, 5] \n
+// range(6, 11) -> [6, 7, 8, 9, 10, 11] \n
 // range(10, 19, 2) -> [10, 12, 14, 16, 18]
 // range(6, 2) -> [6, 5, 4, 3, 2]
 // range(8, -3, 4) -> [8, 4, 0]

@@ -1,4 +1,4 @@
-function range(...nums) {
+/*function range(...nums) {
     let aux = []
      
     if(nums.length === 1) {
@@ -34,6 +34,30 @@ function range(...nums) {
     }
     return console.log(aux)
 }
+*/
+function range(...nums) {
+    let aux = [];
+    let x = 1;
+    let rangeArray = nums[0];
+    let index = 1
+    nums[2] === undefined ? true : index = nums[2];
 
-range(8, -3, 4)
+    if (nums[1] !== undefined) {
+        rangeArray = nums[1];
+        x = nums[0];
+    }
 
+    if (nums[0] < nums[1] || nums[1] === undefined) {
+        for (let i = x; i <= rangeArray; i += index) {
+            aux.push(i);
+        }
+        return console.log(aux);
+    } else {
+        for (let i = x; i >= rangeArray; i -= index) {
+            aux.push(i);
+        }
+        return console.log(aux);
+    }
+    
+}
+range(10, 2, 1);
